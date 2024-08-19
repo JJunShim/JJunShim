@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My informations are down below.
+My information is down below.
 
 <!--
 **J-JunShim/J-JunShim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
