@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{hyperref}
+
+%------------------------------------------------
+
+\name{Jaejun Shim} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{Seoul, Republic of Korea \\ \href{https://www.google.com/maps/place/07037,+Seoul/}{07037}} % Main address
+
+% \address{123 Pleasant Lane \\ City, State 12345} % A secondary address (optional)
+
+\address{
+	\href{tel:+821088512359}{(+82)~$\cdot$~10~$\cdot$~8851~$\cdot$~2359} \\
+	\href{mailto:jjunsh.120@gmail.com}{jjunsh.120@gmail.com} \\
+    \href{https://www.linkedin.com/in/jjunshim/}{in/jjunshim} \\
+    \href{https://github.com/JJunShim}{GitHub}
+} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Interests & Artificial Intelligence(Multimodality, Quantization, Continual Learning), Big-Data \\
+		Computer Languages & Python, C\#  \\
+		Frameworks \& APIs & Spark, Pandas, TensorFlow(Keras), PyTorch, HuggingFace  \\
+		Systems            & Windows, Linux, Google Cloud Platform
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Educations}
+
+	\begin{rSubsection}{Anyang University}{Mar 2018 - Feb 2021}{B.S. in Computer Science and Engineering}{Overall GPA: 3.36/4.5}
+		\item {\textsc{Thesis:}\quad{"Topic-based Timeline News Summarization System"}}
+		\item {\textsc{Relevant Coursework:}\quad{Mathematics, Linux Programming, Database Programming, Python based File Processing, Artificial Intelligence}}
+	\end{rSubsection}
+	\begin{rSubsection}{Ansan University}{Mar 2016 - Feb 2018}{A.A. in Global IT Business}{Overall GPA: 3.2/4.5}
+		\item {\textsc{Relevant Coursework:}\quad{Database Modeling, Object Oriented Programming, System Analysis and Design, Management Information System, Advanced Mobile Programming}}
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Experiences}
+
+	\begin{rSubsection}{Google}{Jun 2023 - Jun 2024}{Associate Customer Engineer, Data Analytics Specialist, Google Cloud}{Seoul, Republic of Korea}
+		\item {Developed and presented Cloud Analytics architectures to internal and external stakeholders.}
+		\item {Engineered big data processing pipelines and deployed Analytics or AI solutions on a cloud platform to address complex technical challenges.}
+		\item {Implemented automated summarization of internal resources using Large Language Models within a cloud infrastructure.}
+		\item {\textsc{Skills:}\quad{Python, Spark, Shell Script, Terraform, Google Cloud Platform, Analytics, Artificial Intelligence}}
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{Korea IT Business Promotion Association}{May - Dec 2022}{Senior Researcher, SW Business Department}{Seoul, Republic of Korea}
+		\item {Delivered AI development educational curricula within the Metropolitan ICT Innovation Square business.}
+		\item {Conceptualized and designed government-funded educational programs in collaboration with the Ministry of Science and ICT.}
+		\item {Participated in the design and implementation of a learning record and information management system for statistical purposes.}
+		\item {\textsc{Skills:}\quad{Python, TensorFlow, Pandas, Machine Learning, Analytics, Project Management, Data Pipeline Automation, Technical Education Business, Goverment Business}}
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{Start-up Company}{Sep 2021 - Apr 2022}{Founding Member}{Seoul, Republic of Korea}
+		\item {Led and oversaw the web \& mobile application software development lifecycle of the platform service.}
+		\item {Recipient of the Best Company Award in the Initial Startup Package program, granted by the Korea Institute of Startup \& Entrepreneurship Development, under the Ministry of SMEs and Startups.}
+		\item {\textsc{Skills:}\quad{Python, Flutter, RDBMS, Application Software, Project Management, Platform Business}}
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Reseach Experiences \& Projects}
+
+	\begin{rSubsection}{Seoul National University}{Dec 2022 - Feb 2023}{Undergraduate Research Intern, Medinfo Laboratory}{Seoul, Republic of Korea}
+		\item {\textsc{Subject:}\quad{"Dataset Is All You Need - MedNLI"}}
+		\item {Investigated the relationship between Transformer model architecture, pre-training data composition, and task or domain specialization on Natural Language Inference performance in the biomedical domain.}
+		\item {Trained pre-trained BERT and derivative models on the MedNLI dataset derived from MIMIC-III clinical notes.}
+		\item {\textsc{Skills:}\quad{Python, TensorFlow, Deep Learning, Natural Language Processing, Biomedical Informatics}}
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{Anyang University}{Sep - Dec 2020}{Project, Bachelor Thesis}{Gyeonggi, Republic of Korea}
+		\item {\textsc{Subject:}\quad{"Topic-based Timeline News Summarization System"}}
+		\item {Constructed a Python-based search engine utilization data scraper optimized for resource efficiency through multi-processing.}
+		\item {Developed a text summarization pipeline utilizing a pre-trained BERT model, processed linguistic data using Python and PyTorch, and integrated a NoSQL document store for efficient data management.}
+		\item {\textsc{Skills:}\quad{Python, NoSQL, File System, Natural Language Processing, Model Serving}}
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{Korea University}{Jun - Sep 2019}{Project, Big-data Youth Talent Course}{Seoul, Republic of Korea}
+		\item {\textsc{Subject:}\quad{"Deep-Cycle" | Image Segmentation System}}
+		\item {Constructed a Python-based data scraper to extract relevant information from search engines.}
+		\item {Developed an object segmentation pipeline utilizing a Mask R-CNN architecture, processing and augmenting visual data with Python, OpenCV, and TensorFlow.}
+		\item {Created a web application employing Flask and SQLite to deliver model-based functionalities.}
+		\item {\textsc{Skills:}\quad{Python, TensorFlow, OpenCV, Flask, RDBMS, Vision Processing, Model Serving}}
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{Anyang University}{Mar - Jul 2018}{Undergraduate Researcher, Embedded System Laboratory}{Gyeonggi, Republic of Korea}
+		\item {Developed embedded systems utilizing ATmega128 microprocessors and C programming.}
+		\item {\textsc{Skills:}\quad{C, AVR, Micro-processor}}
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ACTIVITY SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Leaderships \& Activities}
+
+	\begin{rSubsection}{Korea University, Korea Data Agency}{Jun - Sep 2021}{Teaching Assistance, Big-data Youth Campus Program}{Seoul, Republic of Korea}
+		\item {Provided mentorship and academic support to students engaged in big data-driven intelligent service development projects.}
+	\end{rSubsection}
+	
+	%------------------------------------------------
+
+	\begin{rSubsection}{ICT Innovation Square, National IT industry Promotion Agency}{Apr - Aug 2021}{Teaching Assistance, AI Computer Vison Development Intermediate/Advanced Courses}{Seoul, Republic of Korea}
+		\item {Provided academic guidance and mentorship to students through the construction of neural network models utilizing computer vision datasets.}
+		\item {Developed and disseminated course lecture notes while serving as a mentor to students.}
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
