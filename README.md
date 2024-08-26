@@ -18,4 +18,4 @@ Here are some ideas to get you started:
 -->
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/jjunshim/)
 - 🕸️ [GitHub Pages](https://jjunshim.github.io/)
-- 📜 [Curriculum Vitae](/CV-JaejunShim.pdf)
+- 📜 [Curriculum Vitae](https://drive.google.com/file/d/1oj08VgOHCSzqzA7qFgvBs8wRcJcRKovr/view?usp=sharing)
